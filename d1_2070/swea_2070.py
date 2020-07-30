@@ -13,7 +13,7 @@ for number in numbers:
             print('#{} {}'.format(t, '='))
 
         elif number < max(number):
-                print('#{} {}'.format(t, '<'))
+            print('#{} {}'.format(t, '<'))
 
         else:
             print('#{} {}'.format(t, '>'))
