@@ -20,7 +20,6 @@ def check_day(month, day):
         '11':30, '12':31,
     }
 
-
     if not day_dict.get(month):  # 비어있을 경우, month가 맞을 경우
         return ''
 
