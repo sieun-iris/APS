@@ -11,7 +11,7 @@ for i in range(1, T+1):
     result = {int(score): name}
     a.append(int(score))
     score_3 = sorted(a)
-
+    # print(result)
 
 print(score_3[2])
-print(result)
+# print(result)
